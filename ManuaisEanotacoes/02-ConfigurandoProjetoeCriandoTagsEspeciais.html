@@ -1,0 +1,35 @@
+1 - Para deixar com que cada componente tenha seus arquivos HTML CSS e TS separado deve:
+no arquivo angular.json, nos atributos "inlineTemplate" e "inlineStyle" mudar de true para false
+
+2 - Definições de diretórios:
+Envoiroment-> pasta que define as variaveis de ambiente
+Assets -> para arquivos estáticos imagens, fontes 
+App - > que foi criado pelo primeiro componet
+src -> pasta onde serão criados outros componentes
+index.html -> single page, basicamente aponta para o componente raiz, app.component.ts. Ou seja a aplicação
+começa em index.html e aponta para o component raiz onde terá todas as ligações com outros componentes 
+
+3 - Para criar o app.component.html raiz deve inserir a linha:
+templateUrl: 'app.component.html' e apagar o styles[] dentro de @Component
+Toda a variavel que for criada em exports class component poderá ser utilizado no html com {{}}
+
+4 - INSTALANDO A DEPENDENCIA DO MATERIAL DESIGN:
+Parar a aplicação: ctrl+c no terminal, executar o comando:
+ng add @angular/material
+Escolher o template basta verificar a url no browser
+y
+y
+
+5 - Criando um componente, exemplo header:
+ng g c components/template/header
+
+6 - No app.component.html será criado poderá inserir a nova tag criado, como foi o header seria:
+<app-header></app-header>
+dentro da nova pasta header que foi criada que é o novo component no html, css ts deve ser trabalhado o código
+
+7 - Caso queira usar uma tag especial do material deve inserir o import em app.modules.ts, por exemplo o toolbar
+deve ser inseirido nesse arquivo app.module.ts as seguintes linhas:
+import { MatToolbarModule } from '@angular/material/toolbar'
+e MatToolbarModule dentro de imports 
+
+8 - Para outras definições deve ir instalando pelo ng e outras por importações

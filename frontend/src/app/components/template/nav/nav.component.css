@@ -12,5 +12,6 @@
 }
 
 .content {
-    color: white;
+    padding: 16px;
+    background-color: white;
 }
