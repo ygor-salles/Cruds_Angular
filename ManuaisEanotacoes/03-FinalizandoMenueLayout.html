@@ -2,6 +2,19 @@
 FINALIZANDO O LAYOUT DO MENU
 
 -------------------------------------------------------------------------------------------------------------
+0.1 - Criando um componente, exemplo header:
+ng g c components/template/header
+
+0.2 - No app.component.html será criado poderá inserir a nova tag criado, como foi o header seria:
+<app-header></app-header>
+dentro da nova pasta header que foi criada que é o novo component no html, css ts deve ser trabalhado o código
+
+0.3 - Caso queira usar uma tag especial do material deve inserir o import em app.modules.ts, por exemplo o toolbar
+deve ser inseirido nesse arquivo app.module.ts as seguintes linhas:
+import { MatToolbarModule } from '@angular/material/toolbar'
+e MatToolbarModule dentro de imports 
+
+-------------------------------------------------------------------------------------------------------------
 CABEÇALHO
 1 - A partir do momento que foi adicionado a tag <app-header></app-header> no app.componet.html 
 deve no no componente de header e trabalhar no seu html.
