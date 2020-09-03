@@ -1,19 +1,39 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta BIC Preta",
-            "price": 1.99
-        },
-        {
-            "id": 2,
-            "name": "Pastel de Flango",
-            "price": 3.99
-        },
-        {
-            "id": 3,
-            "name": "Caderno",
-            "price": 10.95
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Pastel de Flango",
+      "price": 3.99
+    },
+    {
+      "id": 3,
+      "name": "Caderno",
+      "price": 10.95
+    },
+    {
+      "name": "Veio do Formulário",
+      "price": "9.99",
+      "id": 4
+    },
+    {
+      "name": "Geladeira",
+      "price": "1894.00",
+      "id": 5
+    },
+    {
+      "name": "Notebook",
+      "price": "3567.77",
+      "id": 6
+    },
+    {
+      "name": "Lapis Preto",
+      "price": "3.50",
+      "id": 7
+    }
+  ]
 }
