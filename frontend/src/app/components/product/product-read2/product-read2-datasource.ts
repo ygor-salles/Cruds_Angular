@@ -5,7 +5,6 @@ import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';
 
-// TODO: replace this with real data from your application
 const EXAMPLE_DATA: Product[] = [
   {id: 1, name: 'Hydrogen', price: 9.99},
   {id: 2, name: 'Helium', price: 9.99},

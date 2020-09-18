@@ -2,9 +2,12 @@ table {
     width: 100%;
 }
 
+.edit {
+    margin-right: 10px;
+}
+
 .edit > i {
     color: #d9cd26;
-    margin-right: 20px;
 }
 
 .delete > i {
