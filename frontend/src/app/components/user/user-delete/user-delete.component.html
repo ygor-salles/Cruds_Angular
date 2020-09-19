@@ -1,23 +1,22 @@
 <mat-card>
-    <mat-card-title>Alterar Usuário</mat-card-title>
+    <mat-card-title>Excluir Usuário</mat-card-title>
     <form>
         <mat-form-field>
             <input matInput placeholder="Nome"
-                [(ngModel)]="user.nome" name="nome">
+                [(ngModel)]="user.nome" name="nome" disabled>
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="CPF"
-                [(ngModel)]="user.cpf" name="cpf">
+                [(ngModel)]="user.cpf" name="cpf" disabled>
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="E-mail"
-                [(ngModel)]="user.email" name="email">
+                [(ngModel)]="user.email" name="email" disabled>
         </mat-form-field>
     </form>
-    <button mat-raised-button (click)="updateUser()" color="primary">
-        Atualizar
+    <button mat-raised-button (click)="deleteUser()" color="warn">
+        Excluir
     </button>
-    
     <button mat-raised-button (click)="cancel()">
         Cancelar
     </button>
