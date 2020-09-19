@@ -8,7 +8,6 @@ import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./views/home/home.component";
 import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-import { UserDeleteComponent } from './components/user/user-delete/user-delete.component';
 
 
 const routes: Routes = [
@@ -39,10 +38,6 @@ const routes: Routes = [
   {
     path: "users/create",
     component: UserCreateComponent
-  },
-  {
-    path: "users/delete",
-    component: UserDeleteComponent
   }
 ];
 

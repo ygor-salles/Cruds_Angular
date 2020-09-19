@@ -28,5 +28,4 @@ export class UserService {
   read(): Observable<User[]> {
     return this.http.get<User[]>(this.baseUrl)
   }
-
 }
