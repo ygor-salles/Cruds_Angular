@@ -25,5 +25,25 @@
       "price": "0.20",
       "id": 5
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nome": "Joaquim Machado dos Santos",
+      "cpf": "147.589.369-74",
+      "email": "joaquim23587_sja@hotmail.com"
+    },
+    {
+      "nome": "Ygor Salles",
+      "cpf": "13511528666",
+      "email": "ygorsalles_aniceto@hotmail.com",
+      "id": 2
+    },
+    {
+      "nome": "Vilma Aparecida Magalhaes Correa Barbosa",
+      "cpf": "147.699.857-74",
+      "email": "vilma_barb7848@gmail.com.br",
+      "id": 3
+    }
   ]
 }

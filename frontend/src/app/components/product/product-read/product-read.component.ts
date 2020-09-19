@@ -10,7 +10,13 @@ import { Component, OnInit } from '@angular/core';
 export class ProductReadComponent implements OnInit {
 
   products: Product[]
-  displayedColumns = ['id', 'name', 'price', 'action']
+  private _displayedColumns = ['id', 'name', 'price', 'action'];
+  public get displayedColumns() {
+    return this._displayedColumns;
+  }
+  public set displayedColumns(value) {
+    this._displayedColumns = value;
+  }
   
   constructor(private productService: ProductService) { }
 
