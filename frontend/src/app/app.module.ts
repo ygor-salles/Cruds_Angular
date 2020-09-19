@@ -38,6 +38,7 @@ import { ProductDeleteComponent } from './components/product/product-delete/prod
 import { UserCreateComponent } from './components/user/user-create/user-create.component';
 import { UserCrudComponent } from './views/user-crud/user-crud.component';
 import { UserReadComponent } from './components/user/user-read/user-read.component';
+import { UserUpdateComponent } from './components/user/user-update/user-update.component';
 
 registerLocaleData(localePt);
 
@@ -59,6 +60,7 @@ registerLocaleData(localePt);
     UserCreateComponent,
     UserCrudComponent,
     UserReadComponent,
+    UserUpdateComponent,
   ],
   imports: [
     BrowserModule,
